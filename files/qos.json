@@ -1,0 +1,66 @@
+{
+	"qos": {
+		"name": "VideoAudio Quality",
+		"dimensions":
+		[
+			{
+				"dimension": {
+					"name": "Video Quality",
+					"attributes":
+					[
+						{
+							"attribute": {
+								"name": "Compression Index",
+								"values": ["20", "10", "5"],
+								"domain": "discrete"
+							}
+						},
+						{
+							"attribute": {
+								"name": "Color Depth",
+								"values": ["32", "24", "16", "8", "3", "1"],
+								"domain": "discrete"
+							}
+						},
+						{
+							"attribute": {
+								"name": "Frame Size",
+								"values": ["16CIF", "4CIF", "CIF", "QCIF", "SQCIF"],
+								"domain": "discrete"
+							}
+						},
+						{
+							"attribute": {
+								"name": "Frame Rate",
+								"values": ["96", "48", "24", "12"],
+								"domain": "discrete"
+							}
+						}
+					]
+				}
+			},
+			{
+				"dimension": {
+					"name": "Audio Quality",
+					"attributes":
+					[
+						{
+							"attribute": {
+								"name": "Sampling Rate",
+								"values": ["88", "44", "32", "11", "8"],
+								"domain": "discrete"
+							}
+						},
+						{
+							"attribute": {
+								"name": "Sample Bits",
+								"values": ["24", "16", "8", "4"],
+								"domain": "discrete"
+							}
+						}
+					]
+				}
+			}
+		]
+	}
+}

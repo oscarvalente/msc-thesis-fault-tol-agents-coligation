@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : service_simples.xml
+    Created on : 2 de Fevereiro de 2013, 10:57
+    Author     : Oscar
+    Description:
+        Purpose of the document follows.
+-->
+
+<service>
+    <connections>
+        <connection>
+            <origin>A</origin>
+            <destination>B</destination>
+			<deadline>100</deadline>
+        </connection>
+    </connections>
+</service>

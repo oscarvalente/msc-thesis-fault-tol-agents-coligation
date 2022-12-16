@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : service.xml
+    Created on : 21 de Novembro de 2012, 17:24
+    Author     : Oscar
+    Description:
+        Purpose of the document follows.
+-->
+
+<service>
+    <connections>
+        <connection>
+            <origin>A</origin>
+            <destination>B</destination>
+			<deadline>100</deadline>
+        </connection>
+        <connection>
+            <origin>A</origin>
+            <destination>C</destination>
+			<deadline>20</deadline>
+        </connection>
+        <connection>
+            <origin>C</origin>
+            <destination>D</destination>
+			<deadline>30</deadline>
+        </connection>
+		<connection>
+            <origin>B</origin>
+            <destination>D</destination>
+			<deadline>40</deadline>
+        </connection>
+        <connection>
+            <origin>D</origin>
+            <destination>E</destination>
+			<deadline>50</deadline>
+        </connection>
+    </connections>
+</service>

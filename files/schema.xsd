@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="service">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="connections" maxOccurs="1">
+	    <xs:complexType>
+	      <xs:sequence>
+	        <xs:element name="connection" minOccurs="0" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="origin" type="xs:string"/>
+                  <xs:element name="destination" type="xs:string"/>
+                  <xs:element name="deadline" type="xs:unsignedLong"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+		  </xs:sequence>
+	    </xs:complexType>
+	  </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>
+

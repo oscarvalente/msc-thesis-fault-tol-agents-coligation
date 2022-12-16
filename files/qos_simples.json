@@ -1,0 +1,23 @@
+{
+	"qos": {
+		"name": "Char Stream Quality",
+		"dimensions":
+		[
+			{
+				"dimension": {
+					"name": "Char Stream Dimension",
+					"attributes":
+					[
+						{
+							"attribute": {
+								"name": "Char Generation p/ sec",
+								"values": ["256", "128", "64", "32", "16", "8"],
+								"domain": "discrete"
+							}
+						}
+					]
+				}
+			}
+		]
+	}
+}
